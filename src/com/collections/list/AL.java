@@ -2,7 +2,7 @@ package com.list;
 
 import java.util.*;
 
-public class AL {
+public class AL implements CollectionsAPI{
     private List<Integer> arrayList;
 
     public AL() {
