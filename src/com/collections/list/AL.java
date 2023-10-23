@@ -1,8 +1,10 @@
-package com.list;
+package com.collections.list;
+
+import com.collections.CollectionsAPI;
 
 import java.util.*;
 
-public class AL implements CollectionsAPI{
+public class AL implements CollectionsAPI {
     private List<Integer> arrayList;
 
     public AL() {
@@ -13,10 +15,12 @@ public class AL implements CollectionsAPI{
         this.arrayList = (ArrayList<Integer>) arrayList.clone();
     }
 
+    @Override
     public void addNumber(int number) {
         this.arrayList.add(number);
     }
 
+    @Override
     public void addNumbers() {
         Scanner scanner = new Scanner(System.in);
         int limit = 0,
@@ -54,8 +58,9 @@ public class AL implements CollectionsAPI{
         }
     }
 
+    @Override
     public void sizeOf() {
-        System.out.println("Tamaño: " + arrayList.size());
+        System.out.println("Tamaño: " + this.arrayList.size());
     }
 
     public void returnThis(int index) {
@@ -68,6 +73,7 @@ public class AL implements CollectionsAPI{
         }
     }
 
+    @Override
     public boolean exitsThis(int number) {
        return this.arrayList.contains(number);
     }
@@ -88,9 +94,10 @@ public class AL implements CollectionsAPI{
         }
     }
 
-    public void removeInThisIndex(int index) {
+    @Override
+    public void remove(int number) {
         try {
-            this.arrayList.remove(index);
+            this.arrayList.remove(number);
             System.out.println("Se elimino");
         } catch (IndexOutOfBoundsException e) {
             System.out.println("El index que marcó no existe en la lista: \n" + e.getMessage() + "");
@@ -99,12 +106,14 @@ public class AL implements CollectionsAPI{
         }
     }
 
+    @Override
     public void clear() {
         this.arrayList.clear();
 
         System.out.println("Limpieza");
     }
 
+    @Override
     public boolean isEmpty() {
         return this.arrayList.isEmpty();
     }
@@ -113,6 +122,7 @@ public class AL implements CollectionsAPI{
         Collections.sort(this.arrayList);
     }
 
+    @Override
     public void iterator() {
         Iterator<Integer> iterator = this.arrayList.iterator();
 
