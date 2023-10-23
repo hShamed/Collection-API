@@ -1,7 +1,12 @@
-import com.list.AL;
+import com.collections.list.AL;
+import com.collections.map.HM;
+import com.collections.set.HS;
 
 public class Main {
     public static void main(String[] args) {
+
+        /*
+        // ArrayList
 
         AL al = new AL();
 
@@ -16,5 +21,37 @@ public class Main {
         al.iterator();
         al.sort();
         al.iterator();
+
+        */
+
+        /*
+
+        // HashSet
+
+        HS hs = new HS();
+
+        hs.addNumbers();
+        System.out.println(hs.exitsThis(23));
+        System.out.println(hs.isEmpty());
+        hs.remove(6);
+        hs.iterator();
+
+         */
+
+        /*
+
+        HM hm = new HM();
+
+        hm.addKeyValue("Shamed", 21);
+        hm.addNumbers();
+        System.out.println(hm.exitsThis(9));
+        System.out.println(hm.exitsThis("Karel"));
+        System.out.println(hm.isEmpty());
+        hm.sizeOf();
+        hm.remove(11);
+        hm.iterator();
+
+         */
+
     }
 }
