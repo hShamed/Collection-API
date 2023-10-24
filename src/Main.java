@@ -1,5 +1,6 @@
 import com.collections.list.AL;
 import com.collections.list.LL;
+import com.collections.list.S;
 import com.collections.list.V;
 import com.collections.map.HM;
 import com.collections.set.HS;
@@ -83,6 +84,22 @@ public class Main {
             v.capacityOf();
             v.sizeOf();
             v.iterator();
+
+         */
+
+        /*
+
+            // Stack
+
+            S s = new S();
+
+            s.addNumbers();
+            s.capacityOf();
+            s.sizeOf();
+            s.iterator();
+            s.pushNumber(300);
+            s.iterator();
+            s.firstIndexAndRemove();
 
          */
 
