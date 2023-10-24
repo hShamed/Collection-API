@@ -19,6 +19,9 @@
 <h3>List</h3>
 <ul>
     <li>ArrayList - AL</li>
+    <li>LinkedList - LL</li>
+    <li>Stack - S</li>
+    <li>Vector - V</li>
 </ul>
 
 <h3>Map</h3>
