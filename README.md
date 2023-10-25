@@ -27,11 +27,21 @@
 <h3>Map</h3>
 <ul>
     <li>HashMap - HM</li>
+    <li>LinkedHashMap - LHM</li>
+    <li>TreeMap - TM</li>
+</ul>
+
+<h3>Queue</h3>
+<ul>
+    <li>ArrayDeque - AD</li>
+    <li>PriorityQueue - PQ</li>
 </ul>
 
 <h3>Set</h3>
 <ul>
     <li>HashSet - HS</li>
+    <li>LinkedHashSet - LHS</li>
+    <li>TreeSet - TS</li>
 </ul>
 
 <br>
