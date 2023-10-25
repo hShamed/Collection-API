@@ -4,6 +4,8 @@ import com.collections.list.S;
 import com.collections.list.V;
 import com.collections.map.HM;
 import com.collections.set.HS;
+import com.collections.set.LHS;
+import com.collections.set.TS;
 
 public class Main {
     public static void main(String[] args) {
@@ -103,6 +105,33 @@ public class Main {
 
          */
 
+        /*
+
+            // LinkedHashSet
+
+            LHS lhs = new LHS();
+
+            lhs.sizeOf();
+            lhs.addNumbers();
+            lhs.sizeOf();
+            lhs.remove(10);
+            lhs.iterator();
+
+         */
+
+        /*
+
+            // TreeSet
+
+            TS ts = new TS();
+
+            ts.addNumbers();
+            ts.sizeOf();
+            ts.greaterOrEqual(6);
+            ts.iterator();
+            ts.reverseIterator();
+
+         */
 
     }
 }
