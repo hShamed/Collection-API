@@ -5,6 +5,8 @@ import com.collections.list.V;
 import com.collections.map.HM;
 import com.collections.map.LHM;
 import com.collections.map.TM;
+import com.collections.queue.AD;
+import com.collections.queue.PQ;
 import com.collections.set.HS;
 import com.collections.set.LHS;
 import com.collections.set.TS;
@@ -156,6 +158,32 @@ public class Main {
             lhm.iterator();
          */
 
+        /*
+
+            // PriorityQueue
+
+            PQ pq = new PQ();
+
+            pq.addNumbers();
+            pq.sizeOf();
+            pq.iterator();
+
+         */
+
+        /*
+
+            // ArrayDeque
+
+            AD ad = new AD();
+
+            ad.addNumbers();
+            ad.addFirstNumber(5);
+            ad.addLastNumber(10);
+            ad.removeFirstNumber();
+            ad.removeLastNumber();
+            ad.iterator();
+
+         */
 
     }
 }
