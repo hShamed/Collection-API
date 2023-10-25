@@ -3,6 +3,7 @@ import com.collections.list.LL;
 import com.collections.list.S;
 import com.collections.list.V;
 import com.collections.map.HM;
+import com.collections.map.TM;
 import com.collections.set.HS;
 import com.collections.set.LHS;
 import com.collections.set.TS;
@@ -131,6 +132,18 @@ public class Main {
             ts.iterator();
             ts.reverseIterator();
 
+         */
+
+        /*
+            // TreeMap
+
+            TM tm = new TM();
+
+            tm.addNumbers();
+            tm.exitsThis("Palmerin");
+            tm.remove(23);
+            tm.sizeOf();
+            tm.iterator();
          */
 
     }
