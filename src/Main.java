@@ -3,6 +3,7 @@ import com.collections.list.LL;
 import com.collections.list.S;
 import com.collections.list.V;
 import com.collections.map.HM;
+import com.collections.map.LHM;
 import com.collections.map.TM;
 import com.collections.set.HS;
 import com.collections.set.LHS;
@@ -145,6 +146,16 @@ public class Main {
             tm.sizeOf();
             tm.iterator();
          */
+
+        /*
+            // LinkedHashMap
+
+            LHM lhm = new LHM();
+
+            lhm.addNumbers();
+            lhm.iterator();
+         */
+
 
     }
 }
