@@ -1,7 +1,7 @@
 <h1 align="center">Estructura de Datos</h1>
 <h3 align="center">🗂</h3>
 <p>
- <img src="https://img.shields.io/badge/STATUS-DESARROLLO-yellow">
+ <img src="https://img.shields.io/badge/STATUS-COMPLETADO-green">
 </p>
 
 <hr>
